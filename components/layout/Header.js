@@ -2,7 +2,7 @@ function Header() {
   return (
     <div className='flex justify-between text-center items-center'>
       <img
-        className='md:w-8 w-8 cursor-pointer'
+        className='md:w-10 w-9 cursor-pointer'
         src='/images/logo.png'
         alt='Club Ampere'
       />
