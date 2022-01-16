@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Event from '../components/event';
 import Hero from '../components/hero';
 import Layout from '../components/layout';
 
@@ -21,6 +22,7 @@ export default function Home() {
         <Layout>
           {/* <h1 className='text-primary text-opacity-50'>Club Ampere ⚡</h1> */}
           <Hero />
+          <Event />
         </Layout>
       </div>
     </div>

@@ -4,10 +4,10 @@ function Hero() {
       className='pt-6 text-center bg-contain bg-center bg-no-repeat'
       style={{ backgroundImage: `url(./images/banner.png)` }}
     >
-      <h2 className='pt-36 uppercase font-Jost font-bold md:text-5xl text-xl text-black text-opacity-60'>
+      <h2 className='pt-36 uppercase font-Jost font-bold md:text-5xl text-4xl text-black text-opacity-60'>
         Club
       </h2>
-      <h1 className='pb-2 uppercase font-Jost font-bold md:text-9xl text-2xl text-black'>
+      <h1 className='pb-2 uppercase font-Jost font-bold md:text-9xl text-6xl text-black'>
         AMPERE
       </h1>
       <p className='font-normal md:text-lg text-sm text-black'>
