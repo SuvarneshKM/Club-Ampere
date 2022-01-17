@@ -14,6 +14,8 @@ module.exports = {
         secondary: '#FEC432',
         light: '#FFF8E5',
         bg: '#F6F6F6',
+        alert: '#FF0000CC',
+        sucess: '#00C14DCC'
       },
     },
   },
