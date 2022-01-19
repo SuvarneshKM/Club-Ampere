@@ -37,7 +37,7 @@ function Event() {
         <h1 className='font-Jost text-center font-bold md:text-5xl text-4xl text-black pb-16'>
           Event
         </h1>
-        <div className='flex flex-wrap gap-x-6 gap-y-12'>
+        <div className='flex flex-wrap justify-center gap-x-6 gap-y-12'>
           {data.map((item) => (
             <Card
               key={item.id}
