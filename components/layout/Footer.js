@@ -1,9 +1,9 @@
 function Footer() {
-    return (
-        <div>
-            <h1>I am Footer</h1>
-        </div>
-    )
+  return (
+    <div className='max-w-7xl mx-auto md:px-16 px-6'>
+      <h1>I am Footer</h1>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;

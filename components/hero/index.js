@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <div
-      className='pt-6 text-center bg-contain bg-center bg-no-repeat'
+      className='pt-6 text-center bg-contain bg-center bg-no-repeat max-w-7xl mx-auto md:px-16 px-6'
       style={{ backgroundImage: `url(./images/banner.png)` }}
     >
       <h2 className='pt-36 uppercase font-Jost font-bold md:text-5xl text-4xl text-black text-opacity-60'>
