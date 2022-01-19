@@ -32,7 +32,7 @@ function Event() {
     },
   ];
   return (
-    <div className='max-w-7xl mx-auto md:pl-16 pl-6'>
+    <div>
       <h1 className='font-Jost text-center font-bold md:text-5xl text-4xl text-black pb-16'>
         Event
       </h1>

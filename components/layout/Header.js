@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div className='flex justify-between text-center items-center max-w-7xl mx-auto md:px-16 px-6'>
+    <div className='flex justify-between text-center items-center'>
       <img
         className='md:w-10 w-9 cursor-pointer'
         src='/images/logo.png'
