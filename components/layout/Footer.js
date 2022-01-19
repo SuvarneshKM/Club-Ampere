@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className='max-w-7xl mx-auto md:px-16 px-6'>
+    <div className=''>
       <h1>I am Footer</h1>
     </div>
   );

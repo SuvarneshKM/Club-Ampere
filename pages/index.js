@@ -5,8 +5,8 @@ import Layout from '../components/layout';
 
 export default function Home() {
   return (
-    <div className='font-poppins bg-bg md:pt-6 pt-4'>
-      <div className=''>
+    <div className='font-poppins bg-bg md:px-16 px-6 md:pt-6 pt-4'>
+      <div className='max-w-7xl mx-auto'>
         <Head>
           <title>Club Ampere ⚡</title>
           <link rel='icon' href='/favicon.ico' />
