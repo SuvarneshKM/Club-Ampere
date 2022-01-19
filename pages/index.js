@@ -1,12 +1,13 @@
 import Head from 'next/head';
 import Event from '../components/event';
+import Guide from '../components/guide';
 import Hero from '../components/hero';
 import Layout from '../components/layout';
 
 export default function Home() {
   return (
-    <div className='font-poppins bg-bg md:px-16 px-6 md:pt-6 pt-4'>
-      <div className='max-w-7xl mx-auto'>
+    <div className='font-poppins bg-bg md:pt-6 pt-4'>
+      <div className=''>
         <Head>
           <title>Club Ampere ⚡</title>
           <link rel='icon' href='/favicon.ico' />
@@ -23,6 +24,7 @@ export default function Home() {
           {/* <h1 className='text-primary text-opacity-50'>Club Ampere ⚡</h1> */}
           <Hero />
           <Event />
+          <Guide />
         </Layout>
       </div>
     </div>

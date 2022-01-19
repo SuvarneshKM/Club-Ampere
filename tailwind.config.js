@@ -18,6 +18,7 @@ module.exports = {
         bg: '#F6F6F6',
         alert: '#FF0000CC',
         sucess: '#00C14DCC',
+        dark: '#121127',
       },
     },
   },

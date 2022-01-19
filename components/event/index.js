@@ -32,20 +32,22 @@ function Event() {
     },
   ];
   return (
-    <div>
-      <h1 className='font-Jost text-center font-bold md:text-5xl text-4xl text-black pb-16'>
-        Event
-      </h1>
-      <div className='flex flex-wrap gap-x-6 gap-y-12'>
-        {data.map((item) => (
-          <Card
-            key={item.id}
-            title={item.title}
-            image={item.image}
-            date={item.date}
-            stat={item.stat}
-          />
-        ))}
+    <div className='md:px-16 px-6 pb-24'>
+      <div className='max-w-7xl mx-auto'>
+        <h1 className='font-Jost text-center font-bold md:text-5xl text-4xl text-black pb-16'>
+          Event
+        </h1>
+        <div className='flex flex-wrap gap-x-6 gap-y-12'>
+          {data.map((item) => (
+            <Card
+              key={item.id}
+              title={item.title}
+              image={item.image}
+              date={item.date}
+              stat={item.stat}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
