@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 
 export default function Home() {
   return (
-    <div className='font-poppins bg-bg md:px-16 px-6 md:pt-6 pt-4'>
+    <div className='font-poppins bg-bg md:pt-6 pt-4'>
       <div className=''>
         <Head>
           <title>Club Ampere ⚡</title>
