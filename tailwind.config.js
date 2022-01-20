@@ -19,6 +19,7 @@ module.exports = {
         alert: '#FF0000CC',
         sucess: '#00C14DCC',
         dark: '#121127',
+        icon: '#9D9CAF'
       },
     },
   },

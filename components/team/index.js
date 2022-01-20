@@ -1,4 +1,5 @@
-import CoreTeam from "./core-team";
+import CoreTeam from "./core";
+import DevelopmentTeam from "./development";
 import Staff from "./staff";
 
 export default function Team() {
@@ -97,6 +98,13 @@ export default function Team() {
                             position={item.position}
                         />
                     ))}
+                </div>
+                <h1 className='font-Jost text-center font-bold md:text-4xl text-3xl text-white pt-12'>
+                    Development Team
+                </h1>
+                <p className="font-Jost text-center font-normal md:text-2xl text-lg text-white py-4">Urna sem et lectus urna id arcu, elit rhoncus. Aliquet aliquet id diam est.</p>
+                <div className='flex flex-wrap justify-center gap-x-5'>
+                    <DevelopmentTeam />
                 </div>
             </div>
         </div>
