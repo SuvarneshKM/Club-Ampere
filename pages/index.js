@@ -3,6 +3,7 @@ import Event from '../components/event';
 import Guide from '../components/guide';
 import Hero from '../components/hero';
 import Layout from '../components/layout';
+import Team from '../components/team';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
           <Hero />
           <Event />
           <Guide />
+          <Team />
         </Layout>
       </div>
     </div>
