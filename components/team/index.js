@@ -38,11 +38,11 @@ export default function Team() {
                 <h1 className='font-Jost text-center font-bold md:text-5xl text-4xl text-white py-16'>
                     Meet Our Team
                 </h1>
-                <h1 className='font-Jost text-center font-bold md:text-4xl text-xl text-white'>
+                <h1 className='font-Jost text-center font-bold md:text-4xl text-3xl text-white'>
                     Our Staff
                 </h1>
                 <p className="font-Jost text-center font-normal md:text-2xl text-lg text-white py-4">Urna sem et lectus urna id arcu, elit rhoncus. Aliquet aliquet id diam est.</p>
-                <div className='flex flex-wrap justify-center gap-x-6 gap-y-12'>
+                <div className='flex flex-wrap justify-center gap-x-5'>
                     {data.map((item) => (
                         <Staff
                             key={item.id}
