@@ -1,4 +1,4 @@
-function Card({ key, title, image, date, stat }) {
+function Card({ title, image, date, stat }) {
   return (
     <div
       className='w-96 h-96 rounded-2xl p-2 flex flex-col justify-between bg-contain'
