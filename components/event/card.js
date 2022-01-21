@@ -1,7 +1,7 @@
 function Card({ title, image, date, stat }) {
   return (
     <div
-      className='w-96 h-96 rounded-2xl p-2 flex flex-col justify-between bg-contain'
+      className='w-96 h-96 rounded-xl p-2 flex flex-col justify-between bg-contain'
       style={{ backgroundImage: `url(${image})` }}
     >
       <div className=''>

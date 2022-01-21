@@ -75,7 +75,7 @@ export default function Team() {
                     Our Staff
                 </h1>
                 <p className="font-Jost text-center font-normal md:text-2xl text-lg text-white py-4">Urna sem et lectus urna id arcu, elit rhoncus. Aliquet aliquet id diam est.</p>
-                <div className='flex flex-wrap justify-center gap-x-5'>
+                <div className='flex flex-wrap justify-center gap-x-6'>
                     {staff.map((item) => (
                         <Staff
                             key={item.id}
@@ -89,7 +89,7 @@ export default function Team() {
                     Our Core Team
                 </h1>
                 <p className="font-Jost text-center font-normal md:text-2xl text-lg text-white py-4">Urna sem et lectus urna id arcu, elit rhoncus. Aliquet aliquet id diam est.</p>
-                <div className='flex flex-wrap justify-center gap-x-5'>
+                <div className='flex flex-wrap justify-center gap-x-6'>
                     {core.map((item) => (
                         <CoreTeam
                             key={item.id}
@@ -103,7 +103,7 @@ export default function Team() {
                     Development Team
                 </h1>
                 <p className="font-Jost text-center font-normal md:text-2xl text-lg text-white py-4">Urna sem et lectus urna id arcu, elit rhoncus. Aliquet aliquet id diam est.</p>
-                <div className='flex flex-wrap justify-center gap-x-5'>
+                <div className='flex flex-wrap justify-center gap-x-6'>
                     <DevelopmentTeam />
                 </div>
             </div>
