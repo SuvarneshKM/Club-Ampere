@@ -13,13 +13,13 @@ export default function DevelopmentTeam() {
                 <p className="font-semibold text-sm text-secondary text-opacity-70">UI/UX Designer</p>
                 <div className='flex space-x-4 pt-4'>
                     <a href="https://www.linkedin.com/in/sreemikil-t-manoharan-b9a8b9a6/" target="_blank" rel="noopener noreferrer">
-                        <GlobalLineIcon className="w-5 h-5 text-icon" />
+                        <GlobalLineIcon className="w-5 h-5 text-icon hover:text-white" />
                     </a>
                     <a href="https://www.linkedin.com/in/sreemikil-t-manoharan-b9a8b9a6/" target="_blank" rel="noopener noreferrer">
-                        <InstagramLineIcon className="w-5 h-5 text-icon" />
+                        <InstagramLineIcon className="w-5 h-5 text-icon hover:text-white" />
                     </a>
                     <a href="https://www.linkedin.com/in/sreemikil-t-manoharan-b9a8b9a6/" target="_blank" rel="noopener noreferrer">
-                        <LinkedinFillIcon className="w-5 h-5 text-icon" />
+                        <LinkedinFillIcon className="w-5 h-5 text-icon hover:text-white" />
                     </a>
                 </div>
             </div>
@@ -29,13 +29,13 @@ export default function DevelopmentTeam() {
                 <p className="font-semibold text-sm text-secondary text-opacity-70">Frontend Developer</p>
                 <div className='flex space-x-4 pt-4'>
                     <a href="https://www.linkedin.com/in/sreemikil-t-manoharan-b9a8b9a6/" target="_blank" rel="noopener noreferrer">
-                        <GithubFillIcon className="w-5 h-5 text-icon" />
+                        <GithubFillIcon className="w-5 h-5 text-icon hover:text-white" />
                     </a>
                     <a href="https://www.linkedin.com/in/sreemikil-t-manoharan-b9a8b9a6/" target="_blank" rel="noopener noreferrer">
-                        <InstagramLineIcon className="w-5 h-5 text-icon" />
+                        <InstagramLineIcon className="w-5 h-5 text-icon hover:text-white" />
                     </a>
                     <a href="https://www.linkedin.com/in/sreemikil-t-manoharan-b9a8b9a6/" target="_blank" rel="noopener noreferrer">
-                        <LinkedinFillIcon className="w-5 h-5 text-icon" />
+                        <LinkedinFillIcon className="w-5 h-5 text-icon hover:text-white" />
                     </a>
                 </div>
             </div>
