@@ -5,7 +5,8 @@ import Hero from '../components/hero';
 import Layout from '../components/layout';
 import Team from '../components/team';
 
-export default function Home() {
+export default function Home({ staf, core }) {
+  // console.log(datas)
   return (
     <div className='font-poppins bg-bg md:pt-6 pt-4'>
       <div className=''>
@@ -26,9 +27,36 @@ export default function Home() {
           <Hero />
           <Event />
           <Guide />
-          <Team />
+          {/* {staf.data && staf.data.map((item) => (
+            <Staffs
+              key={item.id}
+              name={item.attributes.name}
+              position={item.attributes.position}
+              image={item.attributes.image.data.attributes.url}
+            />
+          ))}
+          {core.data && core.data.map((item) => (
+            <Team
+              key={item.id}
+              name={item.attributes.name}
+              position={item.attributes.position}
+              image={item.attributes.image.data.attributes.url}
+            />
+          ))} */}
+          <Team staf={staf} core={core} />
         </Layout>
       </div>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  // Fetch data from external API
+  const res1 = await fetch(`https://club-ampere-backend.herokuapp.com/api/stafs?populate=*`)
+  const res2 = await fetch(`https://club-ampere-backend.herokuapp.com/api/cores?populate=*`)
+  const staf = await res1.json()
+  const core = await res2.json()
+
+  // Pass data to the page via props
+  return { props: { staf, core } }
 }
