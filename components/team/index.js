@@ -19,7 +19,7 @@ export default function Team({ staf, core }) {
                             key={item.id}
                             name={item.attributes.name}
                             position={item.attributes.position}
-                            image={item.attributes.image.data.attributes.url}
+                            image={item.attributes.image}
                         />
                     ))}
                 </div>
@@ -33,7 +33,7 @@ export default function Team({ staf, core }) {
                             key={item.id}
                             name={item.attributes.name}
                             position={item.attributes.position}
-                            image={item.attributes.image.data.attributes.url}
+                            image={item.attributes.image}
                         />
                     ))}
                 </div>
