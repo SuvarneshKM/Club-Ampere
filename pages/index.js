@@ -33,7 +33,7 @@ export default function Home({ staf, core }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   // Fetch data from external API
   const res1 = await fetch(`https://club-ampere-backend.herokuapp.com/api/stafs?populate=*`)
   const res2 = await fetch(`https://club-ampere-backend.herokuapp.com/api/cores?populate=*`)
