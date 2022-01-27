@@ -23,26 +23,9 @@ export default function Home({ staf, core }) {
           />
         </Head>
         <Layout>
-          {/* <h1 className='text-primary text-opacity-50'>Club Ampere ⚡</h1> */}
           <Hero />
           <Event />
           <Guide />
-          {/* {staf.data && staf.data.map((item) => (
-            <Staffs
-              key={item.id}
-              name={item.attributes.name}
-              position={item.attributes.position}
-              image={item.attributes.image.data.attributes.url}
-            />
-          ))}
-          {core.data && core.data.map((item) => (
-            <Team
-              key={item.id}
-              name={item.attributes.name}
-              position={item.attributes.position}
-              image={item.attributes.image.data.attributes.url}
-            />
-          ))} */}
           <Team staf={staf} core={core} />
         </Layout>
       </div>
