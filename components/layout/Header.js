@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
-import InstagramLineIcon from 'remixicon-react/InstagramLineIcon';
-import TwitterLineIcon from 'remixicon-react/TwitterLineIcon';
+import InstagramFillIcon from 'remixicon-react/InstagramFillIcon';
+import TwitterFillIcon from 'remixicon-react/TwitterFillIcon';
 
 function Header() {
   const router = useRouter();
@@ -54,7 +54,7 @@ function Header() {
               rel="noopener noreferrer"
               className=""
             >
-              <InstagramLineIcon className="text-black text-opacity-50 hover:text-opacity-100 cursor-pointer" />
+              <InstagramFillIcon className="text-black text-opacity-50 hover:text-opacity-100 cursor-pointer" />
             </a>
             <a
               href="https://www.instagram.com/club_ampere/"
@@ -62,7 +62,7 @@ function Header() {
               rel="noopener noreferrer"
               className=""
             >
-              <TwitterLineIcon className="text-black text-opacity-50 hover:text-opacity-100 cursor-pointer" />
+              <TwitterFillIcon className="text-black text-opacity-50 hover:text-opacity-100 cursor-pointer" />
             </a>
           </div>
         </div>

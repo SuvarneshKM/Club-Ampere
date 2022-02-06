@@ -4,10 +4,10 @@ function Event() {
   const data = [
     {
       id: 1,
-      title: 'Event 1',
-      image: './images/events/1.jpeg',
-      date: 'January 14 , 2021',
-      stat: 'Coming soon',
+      title: 'Logo Launching',
+      image: './images/events/event1.jpg',
+      date: 'March 26 , 2019',
+      stat: null,
     },
     {
       id: 2,
