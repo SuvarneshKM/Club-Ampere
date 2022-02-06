@@ -34,8 +34,8 @@ export default function Study() {
                     />
                 </Head>
                 <Layout>
-                    <div className='md:px-16 px-6 w-auto h-screen sm:pt-20 pt-10'>
-                        {/* <h1 className='font-Jost text-center font-bold md:text-5xl text-4xl text-black py-16'>
+                    <div className='md:px-16 px-6 w-auto h-screen sm:pt-36 pt-20'>
+                        {/* <h1 className='font-Jost text-center font-bold md:text-5xl text-4xl text-black py-4'>
                             Study Materials
                         </h1>
                         <p className='font-Jost text-center font-normal md:text-2xl text-lg text-black py-4'>
