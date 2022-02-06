@@ -5,8 +5,73 @@ import Hero from '../components/hero';
 import Layout from '../components/layout';
 import Team from '../components/team';
 
-export default function Home({ staf, core }) {
-  // console.log(datas)
+export default function Home() {
+  const staf = [
+    {
+      id: 1,
+      name: 'Jakub',
+      position: 'CEO',
+      image: './images/team/staff/1.jpeg',
+    },
+    {
+      id: 2,
+      name: 'Jakub',
+      position: 'CEO',
+      image: './images/team/staff/2.jpeg',
+    },
+    {
+      id: 3,
+      name: 'Jakub',
+      position: 'CEO',
+      image: './images/team/staff/3.jpeg',
+    },
+    {
+      id: 4,
+      name: 'Jakub',
+      position: 'CEO',
+      image: './images/team/staff/4.jpeg',
+    },
+    {
+      id: 5,
+      name: 'Jakub',
+      position: 'CEO',
+      image: './images/team/staff/5.jpeg',
+    },
+  ]
+
+  const core = [
+    {
+      id: 1,
+      name: 'Name 1',
+      position: 'Lead',
+      image: './images/team/core/1.jpeg',
+    },
+    {
+      id: 2,
+      name: 'Name 2',
+      position: 'Co-Lead',
+      image: './images/team/core/2.jpeg',
+    },
+    {
+      id: 3,
+      name: 'Name 3',
+      position: 'Tech Lead',
+      image: './images/team/core/3.jpeg',
+    },
+    {
+      id: 4,
+      name: 'Name 4',
+      position: 'Out Reach Lead',
+      image: './images/team/core/4.jpeg',
+    },
+    {
+      id: 5,
+      name: 'Name 5',
+      position: 'Creative Lead',
+      image: './images/team/core/5.jpeg',
+    },
+  ]
+
   return (
     <div className='font-poppins bg-bg md:pt-6 pt-4'>
       <div className=''>
@@ -31,15 +96,4 @@ export default function Home({ staf, core }) {
       </div>
     </div>
   );
-}
-
-export async function getServerSideProps() {
-  // Fetch data from external API
-  const res1 = await fetch(`https://club-ampere-backend.herokuapp.com/api/stafs`)
-  const res2 = await fetch(`https://club-ampere-backend.herokuapp.com/api/cores`)
-  const staf = await res1.json()
-  const core = await res2.json()
-
-  // Pass data to the page via props
-  return { props: { staf, core } }
 }
