@@ -12,15 +12,15 @@ function Hero() {
           <h1 className='pb-2 uppercase font-Jost font-bold md:text-9xl text-6xl text-black'>
             AMPERE
           </h1>
-          <p className='font-normal md:text-lg text-sm text-black'>
+          <p className='font-normal md:text-lg text-sm text-black pb-52'>
             Aliquam sit massa feugiat sapien hac purus. Dictum in habitant eu
             vitae dolor.
           </p>
-          <div className='pt-16 pb-24'>
+          {/* <div className='pt-16 pb-24'>
             <button className='bg-secondary px-6 py-3 rounded-md text-white md:text-base text-sm font-medium'>
               Join now
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -6,12 +6,12 @@ function Card({ title, image, date, stat }) {
     >
       <div className=''>
         {stat && (
-          stat == 'Coming soon' ? (
-            <button className='font-bold text-xs text-white px-4 py-2 bg-alert bg-opacity-80 rounded-3xl'>
+          stat == 'Register Now' ? (
+            <button className='font-bold text-xs text-white px-4 py-2 bg-sucess bg-opacity-80 rounded-3xl'>
               {stat}
             </button>
           ) : (
-            <button className='font-bold text-xs text-white px-4 py-2 bg-sucess bg-opacity-80 rounded-3xl'>
+            <button className='font-bold text-xs text-white px-4 py-2 bg-alert bg-opacity-80 rounded-3xl'>
               {stat}
             </button>
           )
