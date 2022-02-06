@@ -34,7 +34,7 @@ export default function Question() {
                     />
                 </Head>
                 <Layout>
-                    <div className='md:px-16 px-6 w-auto h-screen' style={{ backgroundImage: `url(./images/bg.png)` }}>
+                    <div className='md:px-16 px-6 w-auto h-screen sm:pt-20 pt-10'>
                         {/* <h1 className='font-Jost text-center font-bold md:text-5xl text-4xl text-black py-16'>
                             Question Paper
                         </h1>
