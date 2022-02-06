@@ -17,14 +17,13 @@ export default function Syllabus() {
         "EC",
         "IT",
         "ME",
-        "MCA",
     ];
     const [selectedScheme, setSelectedScheme] = useState(scheme[0]);
     const [selectedBranch, setSelectedBranch] = useState(branch[0]);
 
     function handleSubmit(e) {
         e.preventDefault();
-        router.push(`./files/syllabus/${selectedBranch}_${selectedScheme}.pdf`);
+        router.push(`./files/syllabus/Syllabus_${selectedBranch}_${selectedScheme}.pdf`);
     }
 
     return (
