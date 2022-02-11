@@ -35,10 +35,12 @@ export default function Card() {
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat.
         </p>
-        <button onClick={Syllabus} className='flex space-x-1 text-secondary'>
-          Go there
-          <ArrowRightLineIcon />
-        </button>
+        <div className='flex'>
+          <button onClick={Syllabus} className='flex font-semibold space-x-1 text-secondary px-5 md:px-0 py-3 md:py-0 bg-dark md:bg-transparent rounded-full'>
+            <p>Go there</p>
+            <ArrowRightLineIcon />
+          </button>
+        </div>
       </div>
       <div className='w-80 h-80 rounded-xl px-6 py-14 flex flex-col bg-white bg-opacity-5'>
         <img
@@ -51,10 +53,12 @@ export default function Card() {
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat.
         </p>
-        <button onClick={Questions} className='flex space-x-1 text-secondary'>
-          Go there
-          <ArrowRightLineIcon />
-        </button>
+        <div className='flex'>
+          <button onClick={Questions} className='flex font-semibold space-x-1 text-secondary px-5 md:px-0 py-3 md:py-0 bg-dark md:bg-transparent rounded-full'>
+            <p>Go there</p>
+            <ArrowRightLineIcon />
+          </button>
+        </div>
       </div>
       <div className='w-80 h-80 rounded-xl px-6 py-14 flex flex-col bg-white bg-opacity-5'>
         <img
@@ -67,10 +71,12 @@ export default function Card() {
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat.
         </p>
-        <button onClick={Study} className='flex space-x-1 text-secondary'>
-          Go there
-          <ArrowRightLineIcon />
-        </button>
+        <div className='flex'>
+          <button onClick={Study} className='flex font-semibold space-x-1 text-secondary px-5 md:px-0 py-3 md:py-0 bg-dark md:bg-transparent rounded-full'>
+            <p>Go there</p>
+            <ArrowRightLineIcon />
+          </button>
+        </div>
       </div>
     </div>
   );

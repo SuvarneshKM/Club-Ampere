@@ -42,33 +42,39 @@ export default function Home() {
   const core = [
     {
       id: 1,
-      name: 'Name 1',
+      name: 'Alwin Joy',
       position: 'Lead',
-      image: './images/team/core/1.jpeg',
+      image: './images/team/core/alwin_lead.png',
     },
     {
       id: 2,
-      name: 'Name 2',
-      position: 'Co-Lead',
-      image: './images/team/core/2.jpeg',
+      name: 'Shamil K M',
+      position: 'Co Lead',
+      image: './images/team/core/shamil_co.png',
     },
     {
       id: 3,
-      name: 'Name 3',
+      name: 'Thejus A P',
       position: 'Tech Lead',
-      image: './images/team/core/3.jpeg',
+      image: './images/team/core/thejus_tech.png',
     },
     {
       id: 4,
-      name: 'Name 4',
-      position: 'Out Reach Lead',
-      image: './images/team/core/4.jpeg',
+      name: 'Noorjahan M M',
+      position: 'Creative Lead',
+      image: './images/team/core/noorjahan_creative.png',
     },
     {
       id: 5,
-      name: 'Name 5',
-      position: 'Creative Lead',
-      image: './images/team/core/5.jpeg',
+      name: 'Abhiram V K',
+      position: 'PR Lead',
+      image: './images/team/core/abhiram_pr.png',
+    },
+    {
+      id: 6,
+      name: 'Alwin Joy N',
+      position: 'Outreach Lead',
+      image: './images/team/core/alwin_outreach.png',
     },
   ]
 
